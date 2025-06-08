@@ -1,0 +1,19 @@
+channels:
+- defaults
+dependencies:
+- folium=0.19.6
+- geopandas=1.0.1
+- ipykernel=6.29.5
+- matplotlib=3.10.3
+- pandas=2.2.3
+- requests=2.32.3
+- scikit-learn=1.6.1
+- seaborn=0.13.2
+- xgboost=3.0.1
+- geopy=2.4.1
+- pyarrow=20.0.0
+- pip:
+  - openmeteo_requests==1.5.0
+  - requests-cache==1.2.1
+  - retry-requests==2.0.0
+name: myenv
